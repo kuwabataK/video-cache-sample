@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <video controls type="video/mp4" :src="videoObjectURL"></video>
+    <video controls type="video/mp4" src="/sample-video.mp4"></video>
     <button @click="loadVideo">Load Video</button>
     <button @click="cacheVideo">Cache Video</button>
     <button @click="deleteVideo">Delete Video</button>
